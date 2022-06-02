@@ -36,6 +36,10 @@ Reinstall canister
 
 `dfx canister --network ic install <canister name> -m reinstall`
 
+Uninstall code
+
+`dfx canister --network ic uninstall-code --all`
+
 https://smartcontracts.org/docs/developers-guide/cli-reference/dfx-canister.html#_dfx_canister_call
 
 ### Ledger / Wallet

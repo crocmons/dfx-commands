@@ -12,9 +12,7 @@ https://smartcontracts.org/docs/candid-guide/candid-types.html
 
 `dfx deploy --argument='()'`
 
-`e.g. actor class Msg (message: Text) {}`
-
-`dfx deploy --argument='("Text")'`
+`e.g. actor class Msg (message: Text) {}` - `dfx deploy --argument='("Msg")'`
 
 ### Canister
 
@@ -78,10 +76,15 @@ https://smartcontracts.org/docs/developers-guide/computation-and-storage-costs.h
 
 Principal is not a string
 
-To convert string to Principal: `Principal.fromText(principalStr)`
+To convert string to Principal:
+
+`Principal.fromText(principalStr)`
+
 e.g. `Principal.fromText(4i3qn-dmbtq-uqvxc-3un22-b6fp2-dzkgo-ocxrk-zmvvz-vqxno-rnjgd-zqe)`
 
-To convert Principal to string: `Principal.toText(principal)`
+To convert Principal to string:
+
+`Principal.toText(principal)`
 
 Principal methods:
 .isAnonymous()

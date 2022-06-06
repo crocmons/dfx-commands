@@ -72,6 +72,8 @@ https://smartcontracts.org/docs/developers-guide/computation-and-storage-costs.h
 
 ### Notes
 
+null in candid == [] in js
+
 **@dfinity/principal**
 
 Principal is not a string

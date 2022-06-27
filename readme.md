@@ -88,9 +88,9 @@ To convert Principal to string:
 
 `Principal.toText(principal)`
 
-Principal methods:
+<!-- Principal methods:
 .isAnonymous()
 .toHex()
 .toString()
 .toText()
-.toUint8Array()
+.toUint8Array() -->

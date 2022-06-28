@@ -40,7 +40,15 @@ Uninstall code
 
 https://smartcontracts.org/docs/developers-guide/cli-reference/dfx-canister.html#_dfx_canister_call
 
-Add canister controller
+### Wallet, Cycles, Identity
+
+Add a controller
+
+`dfx wallet --network ic add-controller <controller-principal>`
+
+https://internetcomputer.org/docs/current/developer-docs/build/project-setup/default-wallet/#add-a-controller
+
+Add canister cycle wallet controller
 
 https://forum.dfinity.org/t/if-a-cycles-wallet-creates-a-canister-via-the-cycles-wallet-web-ui-how-does-it-add-additional-controllers-to-those-anonymous-canisters/10544/7
 

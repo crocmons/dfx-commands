@@ -40,6 +40,12 @@ Uninstall code
 
 https://smartcontracts.org/docs/developers-guide/cli-reference/dfx-canister.html#_dfx_canister_call
 
+Add canister controller
+
+https://forum.dfinity.org/t/if-a-cycles-wallet-creates-a-canister-via-the-cycles-wallet-web-ui-how-does-it-add-additional-controllers-to-those-anonymous-canisters/10544/7
+
+`dfx canister --wallet CYCLES_WALLET_ID_THAT_IS_CONTROLLER --network ic call "CYCLE_WALLET_ID_THAT_WAS_CREATED_IN_UI" authorize '(principal "YOUR_PRINCIPAL_ID_FOR_DEVELOPER_IDENTITY_OR_NNS")'`
+
 ### Ledger / Wallet
 
 Get ledger balance
@@ -88,9 +94,9 @@ To convert Principal to string:
 
 `Principal.toText(principal)`
 
-<!-- Principal methods:
+Principal methods:
 .isAnonymous()
 .toHex()
 .toString()
 .toText()
-.toUint8Array() -->
+.toUint8Array()

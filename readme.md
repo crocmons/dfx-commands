@@ -42,11 +42,19 @@ https://smartcontracts.org/docs/developers-guide/cli-reference/dfx-canister.html
 
 ### Wallet, Cycles, Identity
 
+📚 https://internetcomputer.org/docs/current/developer-docs/build/project-setup/default-wallet/
+
 Add a controller
 
 `dfx wallet --network ic add-controller <controller-principal>`
 
-https://internetcomputer.org/docs/current/developer-docs/build/project-setup/default-wallet/#add-a-controller
+List the current controllers
+
+`dfx wallet --network ic controllers`
+
+Remove a controller
+
+`dfx wallet --network ic remove-controller <controller-principal>`
 
 Add canister cycle wallet controller
 
@@ -86,7 +94,7 @@ https://smartcontracts.org/docs/developers-guide/computation-and-storage-costs.h
 
 ### Notes
 
-null in candid == [] in js
+null in `candid` == [] in `.js`
 
 **@dfinity/principal**
 

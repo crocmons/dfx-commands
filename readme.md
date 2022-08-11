@@ -92,7 +92,6 @@ Create new canister - 100 billion cycles - 100_000_000_000
 
 https://smartcontracts.org/docs/developers-guide/computation-and-storage-costs.html
 
-
 ### Other
 
 Downgrade DFX

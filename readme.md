@@ -92,6 +92,15 @@ Create new canister - 100 billion cycles - 100_000_000_000
 
 https://smartcontracts.org/docs/developers-guide/computation-and-storage-costs.html
 
+
+### Other
+
+Downgrade DFX
+
+https://forum.dfinity.org/t/how-to-downgrade-dfx/13195
+
+`DFX_VERSION=0.9.3 sh -ci "$(curl -fsSL https://smartcontracts.org/install.sh)"`
+
 ### Notes
 
 null in `candid` == [] in `.js`

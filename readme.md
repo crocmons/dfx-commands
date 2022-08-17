@@ -92,9 +92,9 @@ Create new canister - 100 billion cycles - 100_000_000_000
 
 https://smartcontracts.org/docs/developers-guide/computation-and-storage-costs.html
 
-### Other
+### Version Control
 
-Downgrade DFX
+Downgrade DFX / Set particular DFX version
 
 https://forum.dfinity.org/t/how-to-downgrade-dfx/13195
 

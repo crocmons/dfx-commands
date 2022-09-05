@@ -100,6 +100,18 @@ https://forum.dfinity.org/t/how-to-downgrade-dfx/13195
 
 `DFX_VERSION=0.9.3 sh -ci "$(curl -fsSL https://smartcontracts.org/install.sh)"`
 
+#### Cycles
+
+Send cycles to canister
+
+`dfx wallet --network ic send <destination> <amount>`
+
+For example:
+
+`dfx wallet --network ic send gastn-uqaaa-aaaae-aaafq-cai 10000000000`
+
+https://forum.dfinity.org/t/where-to-call-deposit-cycles/6622/3
+
 ### Notes
 
 null in `candid` == [] in `.js`

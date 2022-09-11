@@ -1,4 +1,4 @@
-### Deploy
+#### Deploy
 
 Deploy
 
@@ -12,9 +12,7 @@ https://smartcontracts.org/docs/candid-guide/candid-types.html
 
 `dfx deploy --argument='()'`
 
-`e.g. actor class Msg (message: Text) {}` - `dfx deploy --argument='("Msg")'`
-
-### Canister
+#### Canister
 
 Get canister id
 
@@ -40,13 +38,15 @@ Uninstall code
 
 https://smartcontracts.org/docs/developers-guide/cli-reference/dfx-canister.html#_dfx_canister_call
 
-### Wallet, Cycles, Identity
+#### Wallet, Cycles, Identity
 
 📚 https://internetcomputer.org/docs/current/developer-docs/build/project-setup/default-wallet/
 
 Add a controller
 
 `dfx wallet --network ic add-controller <controller-principal>`
+
+`dfx canister --network ic --wallet "$(dfx identity --network ic get-wallet)" update-settings <canister> --add-controller <principal>`
 
 List the current controllers
 
@@ -62,7 +62,7 @@ https://forum.dfinity.org/t/if-a-cycles-wallet-creates-a-canister-via-the-cycles
 
 `dfx canister --wallet CYCLES_WALLET_ID_THAT_IS_CONTROLLER --network ic call "CYCLE_WALLET_ID_THAT_WAS_CREATED_IN_UI" authorize '(principal "YOUR_PRINCIPAL_ID_FOR_DEVELOPER_IDENTITY_OR_NNS")'`
 
-### Ledger / Wallet
+#### Ledger / Wallet
 
 Get ledger balance
 
@@ -80,19 +80,19 @@ Set wallet
 
 `dfx identity --network=ic set-wallet <canister id>`
 
-### Identity
+#### Identity
 
 Get current identity Principal
 
 `dfx identity get-principal`
 
-### Prices
+#### Prices
 
 Create new canister - 100 billion cycles - 100_000_000_000
 
 https://smartcontracts.org/docs/developers-guide/computation-and-storage-costs.html
 
-### Version Control
+#### Version Control
 
 Downgrade DFX / Set particular DFX version
 
@@ -112,7 +112,7 @@ For example:
 
 https://forum.dfinity.org/t/where-to-call-deposit-cycles/6622/3
 
-### Notes
+#### Notes
 
 null in `candid` == [] in `.js`
 
